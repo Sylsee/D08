@@ -6,14 +6,14 @@
 #    By: spoliart <spoliart@42.fr>                  +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/02/22 20:03:09 by spoliart          #+#    #+#              #
-#    Updated: 2022/02/22 20:03:13 by spoliart         ###   ########.fr        #
+#    Updated: 2022/03/15 17:58:45 by spoliart         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME	=	prog
 
 CC		=	c++
-CFLAGS	=	-Wall -Wextra -Werror -std=c++98 -g
+CFLAGS	=	-Wall -Wextra -Werror -std=c++98
 
 SRCS	=	main.cpp
 OBJS	=	$(SRCS:.cpp=.o)

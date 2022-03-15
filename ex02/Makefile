@@ -6,14 +6,14 @@
 #    By: spoliart <spoliart@42.fr>                  +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/01/24 14:54:10 by spoliart          #+#    #+#              #
-#    Updated: 2022/02/17 17:16:02 by spoliart         ###   ########.fr        #
+#    Updated: 2022/03/15 17:59:25 by spoliart         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME	=	MutantStack
 
 CC		=	c++
-CFLAGS	=	-Wall -Wextra -Werror -std=c++98 -g
+CFLAGS	=	-Wall -Wextra -Werror -std=c++98
 
 SRCS	=	main.cpp
 OBJS	=	$(SRCS:.cpp=.o)
